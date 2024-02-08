@@ -3,13 +3,7 @@ import { todoReducer } from './todoReducer';
 import { TodoList } from './TodoList';
 import { TodoAdd } from './TodoAdd';
 
-const initialState = [
-  // {
-  //   id: new Date().getTime(),
-  //   description: 'Recolectar la piedra del Alma',
-  //   done: false,
-  // },
-];
+const initialState = [];
 
 const init = () => {
   return localStorage.getItem('todos')
