@@ -2,13 +2,14 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
-// import { MainApp } from './09-useContext/MainApp';
+import { MainApp } from './09-useContext/MainApp';
 // import { TodoApp } from './08-useReducer/TodoApp';
 // import { CounterApp } from './01-useState/CounterApp';
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
 // import { SimpleForm } from './02-useEffect/SimpleForm';
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
-import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks';
+// import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks';
+// import { TodoApp } from './08-useReducer/TodoApp';
 // import { FocusScreen } from './04-useRef/FocusScreen';
 // import { Layout } from './05-useLayoutEffect/Layout';
 // import { Memorize } from './06-memos/Memorize';
@@ -24,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <CounterWithCustomHook /> */}
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
-    <MultipleCustomHooks />
+    {/* <MultipleCustomHooks /> */}
     {/* <FocusScreen /> */}
     {/* <Layout /> */}
     {/* <Memorize /> */}
@@ -32,7 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <CallbackHook /> */}
     {/* <Padre /> */}
     {/* <TodoApp /> */}
-    {/* <MainApp /> */}
+    <MainApp />
     {/* </React.StrictMode> */}
   </BrowserRouter>
 );
